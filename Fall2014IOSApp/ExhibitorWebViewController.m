@@ -36,7 +36,7 @@
     myWebView.delegate = self;
     
     //NSString * myURL = [NSString stringWithFormat:@"http://s23.a2zinc.net/clients/BICSI/fall2013/public/eBooth.aspx?Nav=false&BoothID=%@&EventID=%@&CoID=%@&Source=ExhibitorList", self.boothId, self.eventId, self.coId];
-     NSString * myURL = [NSString stringWithFormat:@"http://s23.a2zinc.net/clients/BICSI/winter2017/Public/eBooth.aspx?IndexInList=6&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=%@&Nav=False", self.boothId];
+     NSString * myURL = [NSString stringWithFormat:@"http://s23.a2zinc.net/clients/BICSI/canada2017/Public/eBooth.aspx?IndexInList=0&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=%@&Nav=False", self.boothId];
     NSURL *fullUrl = [NSURL URLWithString:myURL];
     NSURLRequest *httpRequest = [NSURLRequest requestWithURL:fullUrl];
     [myWebView loadRequest:httpRequest];

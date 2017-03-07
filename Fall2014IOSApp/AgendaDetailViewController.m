@@ -124,7 +124,7 @@
     
     else{
         
-        NSString * myURL = [NSString stringWithFormat:@"https://www.bicsi.org/uploadedfiles/bicsi_conferences/winter/2017/presentations/%@.pdf", self.sessionId];
+        NSString * myURL = [NSString stringWithFormat:@"https://www.bicsi.org/uploadedfiles/bicsi_conferences/canada/2017/presentations/%@.pdf", self.sessionId];
         NSLog(myURL);
         //    NSURL *url = [NSURL URLWithString:myURL];
         //	[[UIApplication sharedApplication] openURL:url];

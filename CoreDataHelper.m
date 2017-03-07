@@ -16,7 +16,7 @@
 
 #pragma mark - FILES
 //NSString *storeFilename = @"bicsi.sqlite";
-NSString *storeFilename = @"group.org.bicsi.winter2017appnew";
+NSString *storeFilename = @"group.org.bicsi.canada2017appnew";
 
 #pragma mark - PATHS
 - (NSString *)applicationDocumentsDirectory {

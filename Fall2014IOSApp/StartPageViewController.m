@@ -873,7 +873,7 @@
     if ([segue.identifier isEqualToString:@"segueToExams"]) {
         
         ExamsViewController *destViewController = segue.destinationViewController;
-        destViewController.title = @"Training & Exams";
+        destViewController.title = @"Training";
         [[segue destinationViewController] setDelegate:self];
         
     }

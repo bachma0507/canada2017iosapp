@@ -1574,7 +1574,7 @@
             </objects>
             <point key="canvasLocation" x="1890" y="-1881"/>
         </scene>
-        <!--Training & Exams-->
+        <!--Training-->
         <scene sceneID="6HF-5N-EOr">
             <objects>
                 <viewController id="bna-eu-eiX" customClass="ExamsViewController" sceneMemberID="viewController">
@@ -1596,7 +1596,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Training &amp; Exams" id="vvF-5G-hle"/>
+                    <navigationItem key="navigationItem" title="Training" id="vvF-5G-hle"/>
                     <connections>
                         <outlet property="activity" destination="jSh-r3-zGm" id="Oye-24-yYV"/>
                         <outlet property="webView" destination="6ij-2q-KrU" id="Mom-ds-tNn"/>

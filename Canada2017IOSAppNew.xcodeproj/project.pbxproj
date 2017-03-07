@@ -106,6 +106,7 @@
 		4C3C390A18219B6700927FFD /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C390918219B6700927FFD /* MapPoint.m */; };
 		4C3D74911819A8D2007606FE /* confscheduleTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D74901819A8D2007606FE /* confscheduleTest.json */; };
 		4C3D74931819AC97007606FE /* sponsorsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D74921819AC97007606FE /* sponsorsTest.json */; };
+		4C3D90F31E6F3EF30099A515 /* trainingexamsW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D90F21E6F3EF30099A515 /* trainingexamsW15_550x550.png */; };
 		4C3EC0CA17642207002E7415 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3EC0C917642207002E7415 /* SocialViewController.m */; };
 		4C3EC0CD17642619002E7415 /* SocialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3EC0CC17642618002E7415 /* SocialDetailViewController.m */; };
 		4C3EC0CF1764287D002E7415 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3EC0CE1764287D002E7415 /* Social.framework */; };
@@ -499,7 +500,6 @@
 		4CCFD95919F9526D00464E3D /* cecinfoW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD95819F9526D00464E3D /* cecinfoW15_550x550.png */; };
 		4CCFD95B19F9543F00464E3D /* committeeW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD95A19F9543F00464E3D /* committeeW15_550x550.png */; };
 		4CCFD95D19F9557200464E3D /* hotelW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD95C19F9557200464E3D /* hotelW15_550x550.png */; };
-		4CCFD95F19F9566F00464E3D /* trainingexamsW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD95E19F9566F00464E3D /* trainingexamsW15_550x550.png */; };
 		4CCFD96119F9570100464E3D /* floormapsW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96019F9570100464E3D /* floormapsW15_550x550.png */; };
 		4CCFD96319F957E400464E3D /* presentationsW15_600x600.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96219F957E400464E3D /* presentationsW15_600x600.png */; };
 		4CCFD96519F9587700464E3D /* activitiesW15_550x550.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFD96419F9587700464E3D /* activitiesW15_550x550.png */; };
@@ -819,6 +819,7 @@
 		4C3C390918219B6700927FFD /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 		4C3D74901819A8D2007606FE /* confscheduleTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confscheduleTest.json; sourceTree = "<group>"; };
 		4C3D74921819AC97007606FE /* sponsorsTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sponsorsTest.json; sourceTree = "<group>"; };
+		4C3D90F21E6F3EF30099A515 /* trainingexamsW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainingexamsW15_550x550.png; sourceTree = "<group>"; };
 		4C3EC0C817642207002E7415 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
 		4C3EC0C917642207002E7415 /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
 		4C3EC0CB17642618002E7415 /* SocialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDetailViewController.h; sourceTree = "<group>"; };
@@ -1553,7 +1554,6 @@
 		4CCFD95819F9526D00464E3D /* cecinfoW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cecinfoW15_550x550.png; sourceTree = "<group>"; };
 		4CCFD95A19F9543F00464E3D /* committeeW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = committeeW15_550x550.png; sourceTree = "<group>"; };
 		4CCFD95C19F9557200464E3D /* hotelW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelW15_550x550.png; sourceTree = "<group>"; };
-		4CCFD95E19F9566F00464E3D /* trainingexamsW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainingexamsW15_550x550.png; sourceTree = "<group>"; };
 		4CCFD96019F9570100464E3D /* floormapsW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floormapsW15_550x550.png; sourceTree = "<group>"; };
 		4CCFD96219F957E400464E3D /* presentationsW15_600x600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presentationsW15_600x600.png; sourceTree = "<group>"; };
 		4CCFD96419F9587700464E3D /* activitiesW15_550x550.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activitiesW15_550x550.png; sourceTree = "<group>"; };
@@ -2156,6 +2156,7 @@
 		4C3F576B19EF62DE00998BBA /* Winter_2015_images */ = {
 			isa = PBXGroup;
 			children = (
+				4C3D90F21E6F3EF30099A515 /* trainingexamsW15_550x550.png */,
 				4CA2E1691A375BFF002B52EE /* surveysW15_550x550.png */,
 				4CF74F3E1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_iphone.png */,
 				4CF74F3F1A30BBAF00C6FC3A /* W15_exhibithall_floorplan_icon_ipad.png */,
@@ -2170,7 +2171,6 @@
 				4CCFD96419F9587700464E3D /* activitiesW15_550x550.png */,
 				4CCFD96219F957E400464E3D /* presentationsW15_600x600.png */,
 				4CCFD96019F9570100464E3D /* floormapsW15_550x550.png */,
-				4CCFD95E19F9566F00464E3D /* trainingexamsW15_550x550.png */,
 				4CCFD95C19F9557200464E3D /* hotelW15_550x550.png */,
 				4CCFD95A19F9543F00464E3D /* committeeW15_550x550.png */,
 				4CCFD95819F9526D00464E3D /* cecinfoW15_550x550.png */,
@@ -4244,7 +4244,6 @@
 				4C246220178C9A2F00F0165B /* exams.html in Resources */,
 				4CA334BE1AAA84DB00D09FAE /* ffloor_maps_C15_568h@2x.png in Resources */,
 				4C76B09A17F91A9A0017E71E /* home_tab_icon_selected@2x.png in Resources */,
-				4CCFD95F19F9566F00464E3D /* trainingexamsW15_550x550.png in Resources */,
 				4CE1B37C178FA929006EF171 /* beep-beep.aiff in Resources */,
 				4C9B1E4319E34847007E0F51 /* blank_profile@2x.png in Resources */,
 				4CA334B11AAA84DB00D09FAE /* exhibit_hall_schedule_C15-ipad.png in Resources */,
@@ -4311,6 +4310,7 @@
 				4CA3349A1AAA84DB00D09FAE /* Concurrent_sessions_C15@3x.png in Resources */,
 				4C9B1E0619E34387007E0F51 /* bubble_stroked@2x.png in Resources */,
 				4C6D39B01CEE1DB100745507 /* survey_tab_icon_unselected@2x.png in Resources */,
+				4C3D90F31E6F3EF30099A515 /* trainingexamsW15_550x550.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4345,7 +4345,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "APP_ID=\"0f6567c911134e8b953fae2b9302624300555300\"\nAPI_KEY=\"1c0fa49d1076ed47783f45477bdd630b\"\nsource \"${SRCROOT}/CrittercismSDK/dsym_upload.sh\"";
+			shellScript = "APP_ID=\"0f6567c911134e8b953fae2b9302624300555300\"\nAPI_KEY=\"1c0fa49d1076ed47783f45477bdd630b\"\nsource \"${SRCROOT}/CrittercismSDK/dsym_upload.sh\"\nREQUIRE_UPLOAD_SUCCESS=0";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4810,6 +4810,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4825,6 +4826,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7 armv7s arm64 i386 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -4844,6 +4846,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -4860,6 +4863,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7 armv7s arm64 i386 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -4875,6 +4879,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = "canada2017Watch Extension/canada2017Watch Extension.entitlements";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4890,6 +4895,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7 armv7s arm64 armv7k i386";
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -4906,6 +4912,7 @@
 				CODE_SIGN_ENTITLEMENTS = "canada2017Watch Extension/canada2017Watch Extension.entitlements";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -4922,6 +4929,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7 armv7s arm64 armv7k i386";
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -4954,6 +4962,7 @@
 				4C6BD8C81E6DF69F0063788D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C6BD8CB1E6DF69F0063788D /* Build configuration list for PBXNativeTarget "canada2017Watch" */ = {
 			isa = XCConfigurationList;
@@ -4962,6 +4971,7 @@
 				4C6BD8C61E6DF69F0063788D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -2433,7 +2433,7 @@
             </objects>
             <point key="canvasLocation" x="4051" y="-2488"/>
         </scene>
-        <!--Training & Exams-->
+        <!--Training-->
         <scene sceneID="c9B-5q-vqu">
             <objects>
                 <viewController id="5uK-kc-T2L" customClass="ExamsViewController" sceneMemberID="viewController">
@@ -2459,7 +2459,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <navigationItem key="navigationItem" title="Training &amp; Exams" id="q5P-jL-MyJ"/>
+                    <navigationItem key="navigationItem" title="Training" id="q5P-jL-MyJ"/>
                     <connections>
                         <outlet property="activity" destination="bXj-Ha-F3S" id="Ih0-Vn-9mW"/>
                         <outlet property="webView" destination="q4v-Rq-PFJ" id="ISD-oA-ctP"/>
