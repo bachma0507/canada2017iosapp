@@ -1896,6 +1896,20 @@ int iNotificationCounter=0;
                             
                             [newManagedObject setValue:[NSDate convertTimeFromStr:newStrTime] forKey:@"startTime"];
                         }
+                        else if ([strTime isEqualToString: @"12:01 PM"])  {
+                            
+                            NSString *newStrTime = @"12:00 PM";
+                            
+                            [newManagedObject setValue:[NSDate convertTimeFromStr:newStrTime] forKey:@"startTime"];
+                        }
+                        else if ([strTime isEqualToString: @"10:31 AM"])  {
+                            
+                            NSString *newStrTime = @"10:30 AM";
+                            
+                            [newManagedObject setValue:[NSDate convertTimeFromStr:newStrTime] forKey:@"startTime"];
+                        }
+
+
                         else{
                          [newManagedObject setValue:[NSDate convertTimeFromStr:mySessions.startTime] forKey:@"startTime"];
                         }

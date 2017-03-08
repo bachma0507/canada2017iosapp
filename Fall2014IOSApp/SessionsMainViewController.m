@@ -111,6 +111,7 @@
                                                           delegate:self
                                                  cancelButtonTitle:@"Ok"
                                                  otherButtonTitles:nil,nil];
+        alertView.tag = 1;
         [alertView show];
     }
     else{
@@ -514,6 +515,26 @@
             
             SessionsDetailViewController *destViewController = segue.destinationViewController;
             destViewController.mySessions = [dateSection objectAtIndex:indexPath.row];
+        }
+    }
+}
+
+-(void)backBtnClick
+{
+    //write your code to prepare popview
+    [self.navigationController popViewControllerAnimated:YES];
+    //[self dismissViewControllerAnimated:YES completion:NULL];
+}
+
+-(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    //u need to change 0 to other value(,1,2,3) if u have more buttons.then u can check which button was pressed.
+    if (alertView.tag ==1) {
+        
+        if (buttonIndex == 0) {
+            
+            [self backBtnClick];
+            
         }
     }
 }
