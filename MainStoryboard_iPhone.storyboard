@@ -944,7 +944,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IoT-BG-Ai9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-979" y="-3691"/>
+            <point key="canvasLocation" x="-1011" y="-3849"/>
         </scene>
         <!--Upload Photo-->
         <scene sceneID="s9E-MQ-eca">
@@ -2361,7 +2361,6 @@
                         <segue destination="SOJ-L9-eCB" kind="relationship" relationship="viewControllers" id="gs3-rX-MsE"/>
                         <segue destination="enQ-KR-oEw" kind="relationship" relationship="viewControllers" id="N4U-nK-eR8"/>
                         <segue destination="nrj-Mh-eI2" kind="relationship" relationship="viewControllers" id="ar3-bk-b3G"/>
-                        <segue destination="MJf-nm-bzG" kind="relationship" relationship="viewControllers" id="Ojg-pq-yZW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bB-rV-u91" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4245,7 +4244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNb-iA-V1f" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-545" y="-3757"/>
+            <point key="canvasLocation" x="-600" y="-3843"/>
         </scene>
         <!--Browse View Controller-->
         <scene sceneID="4jN-um-nMI">
@@ -4270,14 +4269,7 @@
                                                 <button hidden="YES" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="y9f-1N-FVB">
                                                     <rect key="frame" x="2" y="0.0" width="73" height="69"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                                    <state key="normal" title="loading...">
-                                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <state key="highlighted">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
+                                                    <state key="normal" title="loading..."/>
                                                     <connections>
                                                         <segue destination="iRT-KD-jRF" kind="push" id="EWn-mj-ghL"/>
                                                     </connections>
@@ -4285,14 +4277,7 @@
                                                 <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tPM-eL-GMf">
                                                     <rect key="frame" x="83" y="0.0" width="73" height="69"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                                    <state key="normal" title="loading...">
-                                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <state key="highlighted">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
+                                                    <state key="normal" title="loading..."/>
                                                     <connections>
                                                         <segue destination="iRT-KD-jRF" kind="push" id="aXF-d6-bWd"/>
                                                     </connections>
@@ -4472,11 +4457,11 @@
         <segue reference="40o-NH-skY"/>
         <segue reference="94R-k8-XlG"/>
         <segue reference="ia9-ZG-dp5"/>
-        <segue reference="u5N-IR-Z7U"/>
-        <segue reference="dyD-aW-6NQ"/>
-        <segue reference="EWn-mj-ghL"/>
-        <segue reference="wEA-Pg-XW8"/>
-        <segue reference="Bmv-kT-R6k"/>
         <segue reference="TFl-4O-UXk"/>
+        <segue reference="Bmv-kT-R6k"/>
+        <segue reference="u5N-IR-Z7U"/>
+        <segue reference="smM-r4-H83"/>
+        <segue reference="NrX-rm-GLP"/>
+        <segue reference="wEA-Pg-XW8"/>
     </inferredMetricsTieBreakers>
 </document>

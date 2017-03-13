@@ -93,6 +93,7 @@
             //NSLog(@"BrowseViewController -> getAllEntitysAsync: (RESPONSE) %@", bc);
             [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
             mainData = bc;
+            NSLog(@"MAIN.DATA.COUNT = %lu", (unsigned long)mainData.data.count);
             [mainTableView reloadData];
         }
         error:^(Fault *fault) {
@@ -130,6 +131,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return (mainData.data.count / 4) + ((mainData.data.count % 4) ? 1 : 0);
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -149,6 +151,7 @@
         
         UIButton *button = (UIButton *)[cell viewWithTag:i];
         NSString *str = (NSString *)[[mainData.data objectAtIndex:indexPath.row * 4 + i - 1] path];
+        NSLog(@"MAINDATA.DATA PATH = %@", str);
         NSURL *url = [NSURL URLWithString:str];
         button.hidden = NO;
         button.enabled = NO;
@@ -162,6 +165,7 @@
                                    NSDictionary *headers = [responseUrl  allHeaderFields];
                                    
                                    if (statusCode == 200) {
+                                       NSLog(@"STATUS CODE = 200");
                                        [button setImage:[UIImage imageWithData:data] forState:UIControlStateNormal];
                                        button.enabled = YES;
                                    }
