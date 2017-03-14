@@ -191,7 +191,7 @@
         //}];
 
         NSURLSession *session = [NSURLSession sharedSession];
-        NSURLSessionDataTask *dataTask = [session dataTaskWithURL:[NSURL URLWithString:@"https://speedyreference.com/cscheduleW17.php"] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        NSURLSessionDataTask *dataTask = [session dataTaskWithURL:[NSURL URLWithString:@"https://speedyreference.com/cscheduleC17.php"] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         
         if ([data length] == 0 && error == nil)
         {
