@@ -1,9 +1,9 @@
 //
 //  NotificationController.m
-//  canada2017Watch Extension
+//  fall2016Watch Extension
 //
-//  Created by Barry on 3/6/17.
-//  Copyright © 2017 BICSI. All rights reserved.
+//  Created by Barry on 5/11/16.
+//  Copyright © 2016 BICSI. All rights reserved.
 //
 
 #import "NotificationController.h"

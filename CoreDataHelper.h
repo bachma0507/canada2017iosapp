@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
-//#import "SessionsWatch.h"
-//#import "CscheduleWatch.h"
+#import "SessionsWatch.h"
+#import "CscheduleWatch.h"
 
 @interface CoreDataHelper :NSObject
 

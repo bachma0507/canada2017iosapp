@@ -69,6 +69,21 @@
 		4C1FC1081761139C00C1C09B /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FC1071761139C00C1C09B /* Default-Landscape~ipad.png */; };
 		4C1FC10A176113A200C1C09B /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FC109176113A200C1C09B /* Default-Landscape@2x~ipad.png */; };
 		4C2368FB17FB79D3001843B4 /* backbutton-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2368FA17FB79D3001843B4 /* backbutton-default.png */; };
+		4C238E041E78252C00BEA354 /* CscheduleWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DEB1E78252C00BEA354 /* CscheduleWatch.m */; };
+		4C238E051E78252C00BEA354 /* DetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DED1E78252C00BEA354 /* DetailInterfaceController.m */; };
+		4C238E061E78252C00BEA354 /* DetailTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DEF1E78252C00BEA354 /* DetailTableRow.m */; };
+		4C238E071E78252C00BEA354 /* ErrorInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DF11E78252C00BEA354 /* ErrorInterfaceController.m */; };
+		4C238E081E78252C00BEA354 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DF31E78252C00BEA354 /* ExtensionDelegate.m */; };
+		4C238E091E78252C00BEA354 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DF51E78252C00BEA354 /* InterfaceController.m */; };
+		4C238E0A1E78252C00BEA354 /* MyScheduleInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DF71E78252C00BEA354 /* MyScheduleInterfaceController.m */; };
+		4C238E0B1E78252C00BEA354 /* MyScheduleTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DF91E78252C00BEA354 /* MyScheduleTableRow.m */; };
+		4C238E0C1E78252C00BEA354 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DFB1E78252C00BEA354 /* NotificationController.m */; };
+		4C238E0D1E78252C00BEA354 /* ScheduleTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DFD1E78252C00BEA354 /* ScheduleTableRow.m */; };
+		4C238E0E1E78252C00BEA354 /* SessionDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238DFF1E78252C00BEA354 /* SessionDetailInterfaceController.m */; };
+		4C238E0F1E78252C00BEA354 /* SessionDetailTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238E011E78252C00BEA354 /* SessionDetailTableRow.m */; };
+		4C238E101E78252C00BEA354 /* SessionsWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C238E031E78252C00BEA354 /* SessionsWatch.m */; };
+		4C238E111E7827C800BEA354 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C58E0201BF7E8DA003D3593 /* CoreDataHelper.m */; };
+		4C238E121E78280F00BEA354 /* bicsi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C68386618A75B4A00CB650C /* bicsi.xcdatamodeld */; };
 		4C246212178C772D00F0165B /* web.css in Resources */ = {isa = PBXBuildFile; fileRef = 4C246210178C772D00F0165B /* web.css */; };
 		4C24621A178C95D800F0165B /* contact.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C246219178C95D800F0165B /* contact.html */; };
 		4C24621C178C967500F0165B /* cec.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C24621B178C967500F0165B /* cec.html */; };
@@ -210,9 +225,6 @@
 		4C6BD8A71E6DF69F0063788D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BD8A51E6DF69F0063788D /* Interface.storyboard */; };
 		4C6BD8A91E6DF69F0063788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BD8A81E6DF69F0063788D /* Assets.xcassets */; };
 		4C6BD8B01E6DF69F0063788D /* canada2017Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C6BD8AF1E6DF69F0063788D /* canada2017Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4C6BD8B81E6DF69F0063788D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BD8B71E6DF69F0063788D /* InterfaceController.m */; };
-		4C6BD8BB1E6DF69F0063788D /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BD8BA1E6DF69F0063788D /* ExtensionDelegate.m */; };
-		4C6BD8BE1E6DF69F0063788D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BD8BD1E6DF69F0063788D /* NotificationController.m */; };
 		4C6BD8C01E6DF69F0063788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BD8BF1E6DF69F0063788D /* Assets.xcassets */; };
 		4C6BD8C41E6DF69F0063788D /* canada2017Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C6BD8A31E6DF69F0063788D /* canada2017Watch.app */; };
 		4C6CFCE5197031EE00AEB8B2 /* presentation_background_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6CFCE3197031EE00AEB8B2 /* presentation_background_ipad.png */; };
@@ -765,6 +777,32 @@
 		4C1FC1071761139C00C1C09B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		4C1FC109176113A200C1C09B /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		4C2368FA17FB79D3001843B4 /* backbutton-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton-default.png"; sourceTree = "<group>"; };
+		4C238DEA1E78252C00BEA354 /* CscheduleWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CscheduleWatch.h; sourceTree = "<group>"; };
+		4C238DEB1E78252C00BEA354 /* CscheduleWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CscheduleWatch.m; sourceTree = "<group>"; };
+		4C238DEC1E78252C00BEA354 /* DetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInterfaceController.h; sourceTree = "<group>"; };
+		4C238DED1E78252C00BEA354 /* DetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInterfaceController.m; sourceTree = "<group>"; };
+		4C238DEE1E78252C00BEA354 /* DetailTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableRow.h; sourceTree = "<group>"; };
+		4C238DEF1E78252C00BEA354 /* DetailTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableRow.m; sourceTree = "<group>"; };
+		4C238DF01E78252C00BEA354 /* ErrorInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorInterfaceController.h; sourceTree = "<group>"; };
+		4C238DF11E78252C00BEA354 /* ErrorInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorInterfaceController.m; sourceTree = "<group>"; };
+		4C238DF21E78252C00BEA354 /* ExtensionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4C238DF31E78252C00BEA354 /* ExtensionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4C238DF41E78252C00BEA354 /* InterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4C238DF51E78252C00BEA354 /* InterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4C238DF61E78252C00BEA354 /* MyScheduleInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScheduleInterfaceController.h; sourceTree = "<group>"; };
+		4C238DF71E78252C00BEA354 /* MyScheduleInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScheduleInterfaceController.m; sourceTree = "<group>"; };
+		4C238DF81E78252C00BEA354 /* MyScheduleTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScheduleTableRow.h; sourceTree = "<group>"; };
+		4C238DF91E78252C00BEA354 /* MyScheduleTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScheduleTableRow.m; sourceTree = "<group>"; };
+		4C238DFA1E78252C00BEA354 /* NotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4C238DFB1E78252C00BEA354 /* NotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4C238DFC1E78252C00BEA354 /* ScheduleTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableRow.h; sourceTree = "<group>"; };
+		4C238DFD1E78252C00BEA354 /* ScheduleTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableRow.m; sourceTree = "<group>"; };
+		4C238DFE1E78252C00BEA354 /* SessionDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailInterfaceController.h; sourceTree = "<group>"; };
+		4C238DFF1E78252C00BEA354 /* SessionDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailInterfaceController.m; sourceTree = "<group>"; };
+		4C238E001E78252C00BEA354 /* SessionDetailTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailTableRow.h; sourceTree = "<group>"; };
+		4C238E011E78252C00BEA354 /* SessionDetailTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailTableRow.m; sourceTree = "<group>"; };
+		4C238E021E78252C00BEA354 /* SessionsWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsWatch.h; sourceTree = "<group>"; };
+		4C238E031E78252C00BEA354 /* SessionsWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsWatch.m; sourceTree = "<group>"; };
 		4C246210178C772D00F0165B /* web.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = web.css; sourceTree = "<group>"; };
 		4C246219178C95D800F0165B /* contact.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = contact.html; sourceTree = "<group>"; };
 		4C24621B178C967500F0165B /* cec.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cec.html; sourceTree = "<group>"; };
@@ -1154,12 +1192,6 @@
 		4C6BD8AA1E6DF69F0063788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6BD8AF1E6DF69F0063788D /* canada2017Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "canada2017Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6BD8B51E6DF69F0063788D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		4C6BD8B61E6DF69F0063788D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		4C6BD8B71E6DF69F0063788D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		4C6BD8B91E6DF69F0063788D /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
-		4C6BD8BA1E6DF69F0063788D /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
-		4C6BD8BC1E6DF69F0063788D /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		4C6BD8BD1E6DF69F0063788D /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		4C6BD8BF1E6DF69F0063788D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C6BD8C11E6DF69F0063788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6BD8CC1E6DF6D60063788D /* canada2017Watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = canada2017Watch.entitlements; sourceTree = "<group>"; };
@@ -2774,13 +2806,33 @@
 		4C6BD8B31E6DF69F0063788D /* canada2017Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4C238DEA1E78252C00BEA354 /* CscheduleWatch.h */,
+				4C238DEB1E78252C00BEA354 /* CscheduleWatch.m */,
+				4C238DEC1E78252C00BEA354 /* DetailInterfaceController.h */,
+				4C238DED1E78252C00BEA354 /* DetailInterfaceController.m */,
+				4C238DEE1E78252C00BEA354 /* DetailTableRow.h */,
+				4C238DEF1E78252C00BEA354 /* DetailTableRow.m */,
+				4C238DF01E78252C00BEA354 /* ErrorInterfaceController.h */,
+				4C238DF11E78252C00BEA354 /* ErrorInterfaceController.m */,
+				4C238DF21E78252C00BEA354 /* ExtensionDelegate.h */,
+				4C238DF31E78252C00BEA354 /* ExtensionDelegate.m */,
+				4C238DF41E78252C00BEA354 /* InterfaceController.h */,
+				4C238DF51E78252C00BEA354 /* InterfaceController.m */,
+				4C238DF61E78252C00BEA354 /* MyScheduleInterfaceController.h */,
+				4C238DF71E78252C00BEA354 /* MyScheduleInterfaceController.m */,
+				4C238DF81E78252C00BEA354 /* MyScheduleTableRow.h */,
+				4C238DF91E78252C00BEA354 /* MyScheduleTableRow.m */,
+				4C238DFA1E78252C00BEA354 /* NotificationController.h */,
+				4C238DFB1E78252C00BEA354 /* NotificationController.m */,
+				4C238DFC1E78252C00BEA354 /* ScheduleTableRow.h */,
+				4C238DFD1E78252C00BEA354 /* ScheduleTableRow.m */,
+				4C238DFE1E78252C00BEA354 /* SessionDetailInterfaceController.h */,
+				4C238DFF1E78252C00BEA354 /* SessionDetailInterfaceController.m */,
+				4C238E001E78252C00BEA354 /* SessionDetailTableRow.h */,
+				4C238E011E78252C00BEA354 /* SessionDetailTableRow.m */,
+				4C238E021E78252C00BEA354 /* SessionsWatch.h */,
+				4C238E031E78252C00BEA354 /* SessionsWatch.m */,
 				4C6BD8CD1E6DF70A0063788D /* canada2017Watch Extension.entitlements */,
-				4C6BD8B61E6DF69F0063788D /* InterfaceController.h */,
-				4C6BD8B71E6DF69F0063788D /* InterfaceController.m */,
-				4C6BD8B91E6DF69F0063788D /* ExtensionDelegate.h */,
-				4C6BD8BA1E6DF69F0063788D /* ExtensionDelegate.m */,
-				4C6BD8BC1E6DF69F0063788D /* NotificationController.h */,
-				4C6BD8BD1E6DF69F0063788D /* NotificationController.m */,
 				4C6BD8BF1E6DF69F0063788D /* Assets.xcassets */,
 				4C6BD8C11E6DF69F0063788D /* Info.plist */,
 				4C6BD8B41E6DF69F0063788D /* Supporting Files */,
@@ -4597,9 +4649,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6BD8BB1E6DF69F0063788D /* ExtensionDelegate.m in Sources */,
-				4C6BD8B81E6DF69F0063788D /* InterfaceController.m in Sources */,
-				4C6BD8BE1E6DF69F0063788D /* NotificationController.m in Sources */,
+				4C238E071E78252C00BEA354 /* ErrorInterfaceController.m in Sources */,
+				4C238E091E78252C00BEA354 /* InterfaceController.m in Sources */,
+				4C238E0B1E78252C00BEA354 /* MyScheduleTableRow.m in Sources */,
+				4C238E081E78252C00BEA354 /* ExtensionDelegate.m in Sources */,
+				4C238E101E78252C00BEA354 /* SessionsWatch.m in Sources */,
+				4C238E0E1E78252C00BEA354 /* SessionDetailInterfaceController.m in Sources */,
+				4C238E121E78280F00BEA354 /* bicsi.xcdatamodeld in Sources */,
+				4C238E111E7827C800BEA354 /* CoreDataHelper.m in Sources */,
+				4C238E051E78252C00BEA354 /* DetailInterfaceController.m in Sources */,
+				4C238E0C1E78252C00BEA354 /* NotificationController.m in Sources */,
+				4C238E0D1E78252C00BEA354 /* ScheduleTableRow.m in Sources */,
+				4C238E041E78252C00BEA354 /* CscheduleWatch.m in Sources */,
+				4C238E0F1E78252C00BEA354 /* SessionDetailTableRow.m in Sources */,
+				4C238E0A1E78252C00BEA354 /* MyScheduleInterfaceController.m in Sources */,
+				4C238E061E78252C00BEA354 /* DetailTableRow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
