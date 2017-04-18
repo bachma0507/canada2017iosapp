@@ -135,7 +135,7 @@
 }
 
 - (IBAction)takeSurvey:(id)sender{
-    NSString * myURL = [NSString stringWithFormat:@"https://www.research.net/s/%@", self.sessionId2];
+    NSString * myURL = [NSString stringWithFormat:@"https://www.surveymonkey.com/r/%@", self.sessionId2];
     //    NSURL *url = [NSURL URLWithString:myURL];
     //	[[UIApplication sharedApplication] openURL:url];
     NSURL *URL = [NSURL URLWithString:myURL];

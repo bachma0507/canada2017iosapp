@@ -535,7 +535,7 @@
     
     else{
     
-    NSString * myURL = [NSString stringWithFormat:@"https://www.research.net/s/%@", mySessions.sessionID];
+    NSString * myURL = [NSString stringWithFormat:@"https://www.surveymonkey.com/r/%@", mySessions.sessionID];
     //    NSURL *url = [NSURL URLWithString:myURL];
     //	[[UIApplication sharedApplication] openURL:url];
     NSURL *URL = [NSURL URLWithString:myURL];

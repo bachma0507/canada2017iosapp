@@ -38,7 +38,7 @@
     
     NSLog(@"****SessionID in SurveyViewController is %@",self.sessionId);
     
-    NSString * myURL = [NSString stringWithFormat:@"https://www.research.net/s/%@", self.sessionId];
+    NSString * myURL = [NSString stringWithFormat:@"https://www.surveymonkey.com/r/%@", self.sessionId];
     NSURL *URL = [NSURL URLWithString:myURL];
     NSURLRequest *httpRequest = [NSURLRequest requestWithURL:URL];
     [webView loadRequest:httpRequest];
